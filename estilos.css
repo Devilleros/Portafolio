@@ -1,0 +1,253 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    list-style: none;
+}
+body{
+    background: #000000e5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%297e9eff' fill-opacity='0.42' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+ul{
+    list-style: none;
+}
+
+.sombra{
+    background: rgba(36, 42, 46, 0.87);
+}
+
+.contenido {
+    width: 100%;
+    margin: auto;
+    padding-top: 0;
+    margin-top: 0;
+}
+.nav{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color:lightskyblue;
+}
+
+.nav ul{
+    display: flex; 
+    width: 100%;   
+    justify-content: space-between;
+    padding: 1px 24px;
+    margin: auto;
+}
+.nav ul li{
+    padding: 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: turquoise;
+}
+
+.titulo{
+    background: rgba(64, 224, 208, 0.534);
+    color: whitesmoke;
+    display: flex;
+}
+.titulo .IngDes{
+    padding: 20px;
+    align-self: center;
+}
+.titulo .iconPC{
+    align-self: center;
+    margin: 20px;
+    height: 50px;
+}
+.yo{
+    background: rgba(120, 224, 208, 0.7);
+    color: whitesmoke;
+    padding: 10px 30px;
+    }
+.yo h1{
+    
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.yo h2{
+    font-size: 17px;
+}
+.estudio{
+    color: whitesmoke;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    background: url(./imagenes/school-g50c497e8e_1280.png) no-repeat center center/cover;
+}
+
+
+.estudio ul li{
+background: rgba(0, 0, 0, 0.678);
+padding: 5px;
+}
+
+.estudio h2{
+    color: turquoise;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 10px;
+}
+
+.estudio h3{
+    background: rgba(120, 224, 208, 0.534);
+    padding: 5px 10px;
+}
+
+.estudio ul{
+    padding: 20px;
+}
+
+.habilidades{
+    color: whitesmoke;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    background: url(./imagenes/magic-cube-g2e708dd3b_640.jpg);
+}
+
+.habilidades ul li{
+    background: rgba(0, 0, 0, 0.678);
+    padding: 5px;
+}
+
+.habilidades h2{
+    color: turquoise;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 10px;
+}
+
+.habilidades h3{
+    background: rgba(120, 224, 208, 0.534);
+    padding: 5px 10px;
+}
+
+.habilidades ul{
+    padding: 20px;
+}
+
+.proyectos{
+    color: whitesmoke;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    background: url(./imagenes/ux-g06b4cdd30_640.jpg)
+}
+
+.proyectos h2{
+    color: turquoise;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 10px;
+}
+
+.proyectos ul{
+    padding: 20px;
+}
+
+.proyectos ul li{
+    background: rgba(0, 0, 0, 0.678);
+    padding: 5px;
+}
+
+.proyectos h3{
+    background: rgba(120, 224, 208, 0.534);
+    padding: 5px 10px;
+}
+
+
+
+
+.experiencia{
+    color: whitesmoke;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    background: url(./imagenes/brain-ga035f2172_1280.png)
+}
+
+.experiencia h2{
+    color: turquoise;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 10px;
+}
+
+
+.experiencia h3{
+    background: rgba(120, 224, 208, 0.534);
+    padding: 5px 10px;
+}
+
+.experiencia ul{
+    padding: 20px;
+}
+
+.experiencia ul li{
+    background: rgba(0, 0, 0, 0.678);
+    padding: 5px;
+}
+
+
+.contacto{
+    background: black;
+    color: white;
+    margin-top: 50px;
+    padding: 50px 0 130px 0;
+    text-align: center;
+}
+
+.contacto h4{
+    margin: 5px;
+}
+.contacto .correo{
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 600px){
+
+    .nav ul{
+        font-size: 15px;
+        padding: 0;
+
+    }
+    .nav ul li{
+        padding: 5px;
+    }
+
+    .titulo .iconPC{
+        align-self: center;
+        margin: 20px;
+        height: 100px;
+    }
+
+}
+
+@media (max-width: 480px){
+
+    .nav ul{
+        font-size: 9px;
+        padding: 0;
+
+    }
+    .nav ul li{
+        padding: 5px;
+    }
+
+    .titulo .IngDes{
+        font-size: 20px;
+    }
+
+    .titulo .iconPC{
+        align-self: center;
+        margin: 20px;
+        height: 50px;
+    }
+
+}
